@@ -7,8 +7,8 @@ Running order:
 
 currently-using-key-data contains basic parameters and optional data for program.
 
-G20.mat, G21.mat, G22.mat, G23.mat, G24.mat are all random networks created by "create_random_power_grid.m";
-G_chain.mat and G_chain_10_nodes.mat are created by "create_chain.m";
+G20.mat, G21.mat are both random networks created by "create_random_power_grid.m";
+G_chain_10_nodes.mat is created by "create_chain.m";
 G_BA.mat is created by "create_BA.m";
 
 
