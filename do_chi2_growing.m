@@ -21,7 +21,7 @@ for i_b=special_b
         load(fname_y_der);
         if ismember(i_b,special_b)
             for i_slides=1:num_slides
-                chi2_growing(i_slides,i_k,(i_b+4)/5,:)=Gaussianity_assessment(y_der_w(1:slide_ends(i_slides),:),num_bin);
+                chi2_growing(i_slides,i_k,(i_b+4)/5,:)=Gaussianity_chi2(y_der_w(1:slide_ends(i_slides),:),num_bin);
             end
         end
         disp('c');

@@ -1,5 +1,4 @@
 % prepare data by running do_pd_storage.m
-clear
 graph_name='G20';
 load(['./data/data_of_',graph_name,'/pd_storage/pd_storage.mat'])
 HD_vs_num_realizations=zeros(21,num_nodes,num_realizations);
