@@ -4,7 +4,7 @@
 % Eur. Phys. J. Spec. Top. 223, 2593–2610 (2014). 
 % https://doi.org/10.1140/epjst/e2014-02279-6
 clear
-N = 200;
+N = 500;
 N0 = 5;
 p = 0.8;
 q = 0.8;
@@ -178,8 +178,8 @@ for i = (N+1):(N+n)
 		%add node at midpoint and calc distances:
 
 		G.Nodes.x(i,:) = (G.Nodes.x(a,:)+G.Nodes.x(b,:))/2;
-		G.Nodes.dmatrix(i,1:N) = 1; %需要考证
-		G.Nodes.dmatrix(1:N,i) = 1; %需要考证
+		G.Nodes.dmatrix(i,1:N) = 1; 
+		G.Nodes.dmatrix(1:N,i) = 1; 
 
 		%replace edge with two edges
 		G = rmedge(G,a,b);% Remark: one of the lists G.xx is not updated

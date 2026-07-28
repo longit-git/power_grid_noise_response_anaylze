@@ -1,4 +1,4 @@
 #ignore data file folders
 *.DS_Store
 /data/
-
+/figures/
